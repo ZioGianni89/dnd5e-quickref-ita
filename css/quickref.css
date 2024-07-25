@@ -646,3 +646,34 @@ input:checked+.slider:before {
 .dark-mode-active .modal-footer {
     border-top-color: #555; /* Dark mode modal footer border color */
 }
+/* Cookies Notice */
+.cookie-notice {
+    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    z-index: 9999;
+    display: none;
+}
+
+.cookie-notice p {
+    margin: 0 0 1em 0;
+}
+
+.cookie-notice button {
+    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    background: green;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
