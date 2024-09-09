@@ -64,15 +64,15 @@ data_bonusaction = [
         ]
     },
     {
-        title: "Drink a potion*",
-        optional: "Optional rule",
+        title: "Drink a potion **",
+        optional: "Homebrew rule",
         icon: "potion-ball",
         subtitle: "Roll for the effect",
         description: "Roll the dice as per the description of the potion",
         bullets: [
             "(Optional Rule):",
-            "Normally Drinking potion counts as an <i>Action</i>.",
-            "Roll the dice as per the description of the potion."
+            "Normally Drinking potion counts as an <i>Action</i> and will heal by maximum amount.",
+            "When using it as <i>Bonus action</i>, roll the dice as per the description of the potion."
         ],
     },
 ]

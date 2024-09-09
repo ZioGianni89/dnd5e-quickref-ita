@@ -123,27 +123,27 @@ function init() {
 
 document.addEventListener("DOMContentLoaded", init);
 
-//Optional Content Switch
+//Settings Switches
 document.addEventListener("DOMContentLoaded", function () {
-    // Select the checkbox element
-    var checkbox = document.getElementById('optional-switch');
+    // Select the checkboxes
+    var optionalCheckbox = document.getElementById('optional-switch');
+    var homebrewCheckbox = document.getElementById('homebrew-switch');
+    var darkModeCheckbox = document.getElementById('darkmode-switch');
 
-    // Function to handle checkbox change
-    function handleCheckboxChange() {
-        console.log("Include Optional Rules switch toggled"); // Debugging statement
-        // Get all items with the class 'item'
+    // Function to handle checkbox changes for optional and homebrew rules
+    function handleRulesToggle() {
+        console.log("Rules switches toggled"); // Debugging statement
         var items = document.getElementsByClassName('item itemsize');
 
-        // Iterate through each item
         for (var i = 0; i < items.length; i++) {
             var item = items[i];
-            // Check if the item has the attribute 'title' with the value 'Optional rule' (indicating it's an optional rule)
-            var isOptional = item.getAttribute('title') === 'Optional rule';
-            // If the checkbox is checked and the item is optional, show the item
-            // If the checkbox is unchecked or the item is not optional, show the item if it's not an optional rule, otherwise hide it
-            if (checkbox.checked && isOptional) {
-                item.style.display = 'block';
-            } else if (!isOptional) {
+            var itemType = item.getAttribute('title');
+            var isOptional = itemType === 'Optional rule';
+            var isHomebrew = itemType === 'Homebrew rule';
+
+            if ((optionalCheckbox.checked && isOptional) ||
+                (homebrewCheckbox.checked && isHomebrew) ||
+                (!isOptional && !isHomebrew)) {
                 item.style.display = 'block';
             } else {
                 item.style.display = 'none';
@@ -151,60 +151,47 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Add event listener to the checkbox
-    checkbox.addEventListener('change', handleCheckboxChange);
-
-    // Call the function to initially set the visibility based on the checkbox state
-    handleCheckboxChange();
-
-    //Darkmode switch 
-    // Get the checkbox element
-    const darkModeSwitch = document.getElementById('darkmode-switch');
-
-    // Function to toggle dark mode
-    function toggleDarkMode() {
+    // Function to handle darkmode toggle
+    function handleDarkModeToggle() {
         console.log("Dark mode switch toggled"); // Debugging statement
         const darkModeElements = document.querySelectorAll('.dark-mode, .page-background');
         darkModeElements.forEach(element => {
-            element.classList.toggle('dark-mode-active');
+            if (darkModeCheckbox.checked) {
+                element.classList.add('dark-mode-active');
+            } else {
+                element.classList.remove('dark-mode-active');
+            }
         });
     }
-    // Event listener for checkbox change
-    darkModeSwitch.addEventListener('change', toggleDarkMode);
-});
-document.addEventListener("DOMContentLoaded", function () {
-    // Get the toggle item for optional rules
+
+    // Add event listeners to the checkboxes
+    optionalCheckbox.addEventListener('change', handleRulesToggle);
+    homebrewCheckbox.addEventListener('change', handleRulesToggle);
+    darkModeCheckbox.addEventListener('change', handleDarkModeToggle);
+
+    // Call the functions to initially set the correct states
+    handleRulesToggle();
+    handleDarkModeToggle(); // This will now apply the correct initial state
+
+    // Get the toggle items
     var optionalToggleItem = document.getElementById('optional-toggle-item');
-
-    // Get the optional switch checkbox
-    var optionalSwitch = document.getElementById('optional-switch');
-
-    // Function to handle click on the toggle item for optional rules
-    function handleOptionalToggleClick() {
-        // Toggle the checked state of the optional switch checkbox
-        optionalSwitch.checked = !optionalSwitch.checked;
-        // Dispatch a change event to trigger the optional rules toggle function
-        optionalSwitch.dispatchEvent(new Event('change'));
-    }
-
-    // Add event listener to the toggle item for optional rules
-    optionalToggleItem.addEventListener('click', handleOptionalToggleClick);
-});
-document.addEventListener("DOMContentLoaded", function () {
-    // Get the toggle item
+    var homebrewToggleItem = document.getElementById('homebrew-toggle-item');
     var darkModeToggleItem = document.getElementById('darkmode-toggle-item');
 
-    // Get the dark mode switch checkbox
-    var darkModeSwitch = document.getElementById('darkmode-switch');
-
-    // Function to handle click on the toggle item
-    function handleDarkModeToggleClick() {
-        // Toggle the checked state of the dark mode switch checkbox
-        darkModeSwitch.checked = !darkModeSwitch.checked;
-        // Dispatch a change event to trigger the dark mode toggle function
-        darkModeSwitch.dispatchEvent(new Event('change'));
+    // Function to handle click on the toggle items
+    function handleToggleClick(checkbox) {
+        return function() {
+            checkbox.checked = !checkbox.checked;
+            checkbox.dispatchEvent(new Event('change'));
+        };
     }
 
-    // Add event listener to the toggle item
-    darkModeToggleItem.addEventListener('click', handleDarkModeToggleClick);
-})
+    // Add event listeners to the toggle items
+    optionalToggleItem.addEventListener('click', handleToggleClick(optionalCheckbox));
+    homebrewToggleItem.addEventListener('click', handleToggleClick(homebrewCheckbox));
+    darkModeToggleItem.addEventListener('click', handleToggleClick(darkModeCheckbox));
+
+    // Ensure dark mode is off by default
+    darkModeCheckbox.checked = false;
+    handleDarkModeToggle();
+});
