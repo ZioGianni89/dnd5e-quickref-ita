@@ -4,12 +4,12 @@ data_action = [
         optional: "Standard rule",
         icon: "crossed-swords",
         subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        description: "Perform a melee or ranged attack with your weapon or an Unarmed Strike",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
             "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with an <i>Unarmed Strike</i>. With an unarmed strike, you can either deal damage (1 + Stregnth Modifier), <i>Grapple<i>, or <i>Shove<i>. ",
+            "<b>Unarmed Strike</b>. With an unarmed strike, you can either deal damage (1 + Strength Modifier), <i>Grapple<i>, or <i>Shove<i>. ",
             "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
             "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers.",
             "You may draw or stow your weapon as part of the attack action."
