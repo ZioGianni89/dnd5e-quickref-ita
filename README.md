@@ -6,7 +6,7 @@ Quick reference sheet for D&amp;D 5e
 
 Quick Reference can be viewed under
 
-[https://onewholetomato.github.io/dnd5e-quickref/)
+https://onewholetomato.github.io/dnd5e-quickref/
 
 Icons
 ==============
