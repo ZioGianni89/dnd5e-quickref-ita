@@ -86,7 +86,7 @@ data_condition = [
             "You can’t take any action, Bonus Action, or Reaction.",
             "Your Concentration is broken.",
             "You can’t speak.",
-            "If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll. This counts as being surprised."
+            "<b>Surprised.</b> If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll. This counts as being surprised."
 
         ]
     },
@@ -98,8 +98,8 @@ data_condition = [
         description: "You can't be seen without the aid of magic or a special sense",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Surprise. If you’re Invisible when you roll Initiative, you have Advantage on the roll.",
-            "Concealed. You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.",
+            "<b>Surprise</b>. If you’re Invisible when you roll Initiative, you have Advantage on the roll.",
+            "<b>Concealed</b>. You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.",
             " Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature."
         ]
     },
