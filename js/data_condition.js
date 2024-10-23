@@ -8,8 +8,7 @@ data_condition = [
         reference: "PHB, pg. 290.",
         bullets: [
             "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Attack rolls against you have Advantage, and your attack rolls have Disadvantage."
         ]
     },
     {
@@ -43,10 +42,10 @@ data_condition = [
         description: "Exhaustion is measured in six levels",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature’s exhaustion level by 1."
+            "This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.",
+            "When you make a d20 Test, the roll is reduced by 2 x your exhaustion level",
+            "You speed is reduced by a number of feet equal to 5 x your exhaustion level.",
+            "Finishing a long rest removes one level of exhaustion."
         ]
     },
     {
@@ -69,9 +68,11 @@ data_condition = [
         description: "You are grappled",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
+            "Your speed becomes 0, and can't increase",
+            "You have Disadvantage on attack rolls against any target other than the grappler.",
             "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "The condition also ends if you are removed from the reach of your grappler.",
+            "The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it."
         ]
     },
     {
@@ -82,6 +83,11 @@ data_condition = [
         description: "You can't take actions or reactions",
         reference: "PHB, pg. 290.",
         bullets: [
+            "You can’t take any action, Bonus Action, or Reaction.",
+            "Your Concentration is broken.",
+            "You can’t speak.",
+            "If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll. This counts as being surprised."
+
         ]
     },
     {
@@ -92,11 +98,9 @@ data_condition = [
         description: "You can't be seen without the aid of magic or a special sense",
         reference: "PHB, pg. 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage.",
-            "A target that's invisble can’t be targeted by a spell requiring sight."
+            "Surprise. If you’re Invisible when you roll Initiative, you have Advantage on the roll.",
+            "Concealed. You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.",
+            " Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature."
         ]
     },
     {
@@ -174,7 +178,7 @@ data_condition = [
         description: "You are stunned",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
+            "You have the incapacitated condition.",
             "Attack rolls against you have advantage.",
             "You automatically fail Strength and Dexterity saving throws."
         ]

@@ -9,37 +9,36 @@ data_action = [
         bullets: [
             "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
             "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Grapple</i> or a <i>Shove</i>.",
+            "You may replace one of your melee attacks with an <i>Unarmed Strike</i>. With an unarmed strike, you can either deal damage (1 + Stregnth Modifier), <i>Grapple<i>, or <i>Shove<i>. ",
             "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers.",
+            "You may draw or stow your weapon as part of the attack action."
         ]
     },
     {
         title: "Grapple",
         optional: "Standard rule",
         icon: "grab",
-        subtitle: "Special melee attack",
+        subtitle: "Unarmed Strike",
         description: "Attempt to grab a creature or wrestle with it",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make a special melee attack, a grapple. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "You can use the <i>Attack</i> action to make an unarmed strike to grapple a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
             "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you succeed, you subject the target to the grappled condition (its speed is set to 0)."
+            "The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the Grappled condition. The DC for the saving throw and any escape attempts equals 8 plus your Strength modifier and Proficiency Bonus."
         ]
     },
     {
         title: "Shove",
         optional: "Standard rule",
         icon: "hand",
-        subtitle: "Special melee attack",
+        subtitle: "Unarmed Strike",
         description: "Shove a creature, either to knock it prone or push it away from you",
         reference: "PHB, pg. 195. / DMG, page 272",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
+            "Using the <i>Attack</i> action, you can make an unarmed strike to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
             "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you.",
+            "The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus."
         ]
     },
     {
@@ -111,7 +110,7 @@ data_action = [
         description: "Escape a grapple",
         reference: "PHB, pg. 195.",
         bullets: [
-            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by the grappler's Strength (Athletics) check.",
+            "To escape a grapple, you must succeed on a Strength (Athletics) or Dexterity (Acrobatics) against the grappler's escape DC.",
             "Escaping other conditions that restrain you (such as manacles) may require a Dexterity or Strength check, as specified by the condition."
         ]
     },
@@ -123,9 +122,8 @@ data_action = [
         description: "Grant an ally advantage on an ability check or attack",
         reference: "PHB, pg. 192.",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "Assist an Ability Check: Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has Advantage on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn’t use it before the start of your next turn. The DM has final say on whether your assistance is possible..",
+            "Assist an Attack roll: You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."
         ]
     },
     {
@@ -141,7 +139,7 @@ data_action = [
         ]
     },
     {
-        title: "Use shield",
+        title: "Don shield",
         optional: "Standard rule",
         icon: "round-shield",
         subtitle: "Equip or unequip a shield",
@@ -160,11 +158,11 @@ data_action = [
         description: "Attempt to hide",
         reference: "PHB, pg. 192.",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
+            "To Hide, you must succeed on a DC 15 Dexterity (Stealth) check.",
+            "To Hide, you must be Heavily Obscured or behind Three-Quarters Cover or Total Cover, and you must be out of any enemy’s line of sight; if you can see a creature, you can discern whether it can see you.",
+            "On a successful check, you have the Invisible condition. Make note of your check’s total, which is the DC for a creature to find you with a Wisdom (Perception) check.",
             "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "The condition ends on you immediately after any of the following occurs: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component."
         ]
     },
     {
@@ -175,7 +173,7 @@ data_action = [
         description: "Devote your attention to finding something",
         reference: "PHB, pg. 193.",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "When you take the Search action, you make a Wisdom check to discern something that isn’t obvious. The DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
         ]
     },
     {
