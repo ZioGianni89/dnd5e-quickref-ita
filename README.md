@@ -6,12 +6,7 @@ Quick reference sheet for D&amp;D 5e
 
 Quick Reference can be viewed under
 
-[https://mfriik.github.io/dnd5e-quickref](https://mfriik.github.io/dnd5e-quickref/)
-
-or
-
-[dnd.milobedzki.pl
-](https://dnd.milobedzki.pl/)
+[https://onewholetomato.github.io/dnd5e-quickref/)
 
 Icons
 ==============
