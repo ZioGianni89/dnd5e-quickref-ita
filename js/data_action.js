@@ -122,8 +122,8 @@ data_action = [
         description: "Grant an ally advantage on an ability check or attack",
         reference: "PHB, pg. 192.",
         bullets: [
-            "Assist an Ability Check: Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has Advantage on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn’t use it before the start of your next turn. The DM has final say on whether your assistance is possible..",
-            "Assist an Attack roll: You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."
+            "<b>Assist an Ability Check.<b> Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has Advantage on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn’t use it before the start of your next turn. The DM has final say on whether your assistance is possible..",
+            "<b>Assist an Attack roll.<b> You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."
         ]
     },
     {
@@ -174,6 +174,17 @@ data_action = [
         reference: "PHB, pg. 193.",
         bullets: [
             "When you take the Search action, you make a Wisdom check to discern something that isn’t obvious. The DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+        ]
+    },
+    {
+        title: "Study",
+        optional: "Standard rule",
+        icon: "black-book",
+        subtitle: "Attempt to recall  something",
+        description: "Devote your attention to recalling something",
+        reference: "PHB, pg. 193.",
+        bullets: [
+            "When you take the Study action, you make an Intelligence check to recall information. This is usually a knowledge check."
         ]
     },
     {
