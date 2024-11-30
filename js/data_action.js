@@ -1,9 +1,9 @@
 data_action = [
     {
-        title: "Attack",
-        optional: "Standard rule",
+        title: "Attacco",
+        optional: "Regola Standard",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
+        subtitle: "Attacco in mischia o a distanza",
         description: "Perform a melee or ranged attack with your weapon or an Unarmed Strike",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
