@@ -4,15 +4,15 @@ data_action = [
         optional: "Regola Standard",
         icon: "crossed-swords",
         subtitle: "Attacco in mischia o a distanza",
-        description: "Perform a melee or ranged attack with your weapon or an Unarmed Strike",
+        description: "Esegui un attacco in mischia o a distanza con la tua arma o con il tuo Colpo Senz'Armi",
         reference: "PHB, pgs. 192,194-195.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a light melee weapon, you can use a bonus action to attack with your other hand (see the <i>Offhand attack</i> bonus action).",
-            "<b>Unarmed Strike</b>. With an unarmed strike, you can either deal damage (1 + Strength Modifier), <i>Grapple<i>, or <i>Shove<i>. ",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers.",
-            "You may draw or stow your weapon as part of the attack action."
+            "Alcune capacità, come l'<i>Attacco Extra</i> del guerriero, ti permettono di effettuare più di un attacco con questa azione. Ognuno di questi attacchi richiede un tiro per colpire separato e possono essere indirizzati a più bersagli. Ti puoi muovere tra un attacco e l'altro.",
+            "Quando attacchi con un'arma da mischia leggera, puoi usare la tua azione bonus per attaccare con l'altra mano (guarda l'azione bonus <i>Attaccare con la seconda mano</i>).",
+            "<b>Colpo Senz'Armi</b>. Con colpo senz'armi, puoi causare danni (1 + Modificatore di Forza), <i>Afferrare<i>, or <i>Spingere<i>. ",
+            "Alcune condizioni garantiscono vantaggio all'attacco: attacchi contro bersagli accecati, paralizzati, pietrificati, trattenuti, storditi o svenuti; attacchi in mischia contro bersagli proni; attacchi da attaccanti invisibili o nascosti.",
+            "Alcune condizioni garantiscono svantaggio all'attacco: attacchi contro bersagli invisibili o nascosti; attacchi a distanza contro bersagli proni; attacchi da bersagli accecati, spaventati, avvelenati o trattenuti.",
+            "Puoi estrarre o riporre la tua arma come parte della tua azione di attacco."
         ]
     },
     {
