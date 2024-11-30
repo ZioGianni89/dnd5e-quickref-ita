@@ -9,18 +9,18 @@ data_action = [
         bullets: [
             "Alcune capacità, come l'<i>Attacco Extra</i> del guerriero, ti permettono di effettuare più di un attacco con questa azione. Ognuno di questi attacchi richiede un tiro per colpire separato e possono essere indirizzati a più bersagli. Ti puoi muovere tra un attacco e l'altro.",
             "Quando attacchi con un'arma da mischia leggera, puoi usare la tua azione bonus per attaccare con l'altra mano (guarda l'azione bonus <i>Attaccare con la seconda mano</i>).",
-            "<b>Colpo Senz'Armi</b>. Con colpo senz'armi, puoi causare danni (1 + Modificatore di Forza), <i>Afferrare<i>, or <i>Spingere<i>. ",
+            "<b>Colpo Senz'Armi</b>. Con colpo senz'armi, puoi causare danni (1 + Modificatore di Forza), <i>Afferrare<i>, o <i>Spingere<i>. ",
             "Alcune condizioni garantiscono vantaggio all'attacco: attacchi contro bersagli accecati, paralizzati, pietrificati, trattenuti, storditi o svenuti; attacchi in mischia contro bersagli proni; attacchi da attaccanti invisibili o nascosti.",
             "Alcune condizioni garantiscono svantaggio all'attacco: attacchi contro bersagli invisibili o nascosti; attacchi a distanza contro bersagli proni; attacchi da bersagli accecati, spaventati, avvelenati o trattenuti.",
             "Puoi estrarre o riporre la tua arma come parte della tua azione di attacco."
         ]
     },
     {
-        title: "Grapple",
-        optional: "Standard rule",
+        title: "Afferrare",
+        optional: "Regola Standard",
         icon: "grab",
-        subtitle: "Unarmed Strike",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Colpo Senz'Armi",
+        description: "Tenti di afferrare o lottare con una creatura",
         reference: "PHB, pg. 195.",
         bullets: [
             "You can use the <i>Attack</i> action to make an unarmed strike to grapple a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
