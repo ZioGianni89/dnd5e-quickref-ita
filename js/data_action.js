@@ -23,22 +23,22 @@ data_action = [
         description: "Tenti di afferrare o lottare con una creatura",
         reference: "PHB, pg. 195.",
         bullets: [
-            "You can use the <i>Attack</i> action to make an unarmed strike to grapple a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "The target must succeed on a Strength or Dexterity saving throw (it chooses which), or it has the Grappled condition. The DC for the saving throw and any escape attempts equals 8 plus your Strength modifier and Proficiency Bonus."
+            "Puoi usare l'azione di <i>Attacco</i> per effettuare un colpo senz'armi per afferrare una creatura. Se sei in grado di effettuare attacchi multipli con la tua azione di Attacco, questo attacco rimpiazza uno di questi.",
+            "Il bersaglio del tuo attacco deve essere al massimo di una taglia più grande di te, e deve essere entro la tua portata.",
+            "Il bersaglio deve superare un tiro salvezza su Forza o Destrezza (il bersaglio sceglie quale), o subisce la condizione Afferrato. La CD per il tiro salvezza e per qualsiasi tentativo di fuga è uguale a 8 più il tuo modificatore di Forza e il tuo Bonus Competenza."
         ]
     },
     {
-        title: "Shove",
-        optional: "Standard rule",
+        title: "Spingere",
+        optional: "Regola Standard",
         icon: "hand",
-        subtitle: "Unarmed Strike",
-        description: "Shove a creature, either to knock it prone or push it away from you",
-        reference: "PHB, pg. 195. / DMG, page 272",
+        subtitle: "Colpo Senz'Armi",
+        description: "Spingi una creatura, per renderla prona o per spingerla lontano da te",
+        reference: "PHB, pg. 195. / DMG, pg. 272",
         bullets: [
-            "Using the <i>Attack</i> action, you can make an unarmed strike to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "The target must succeed on a Strength or Dexterity saving throw (it chooses which), or you either push it 5 feet away or cause it to have the Prone condition. The DC for the saving throw equals 8 plus your Strength modifier and Proficiency Bonus."
+            "Usando l'azione di <i>Attacco</i>, puoi effettuare un colpo senz'armi per spingere una creatura. Se sei in grado di effettuare attacchi multipli con la tua azione di Attacco, questo attacco rimpiazza uno di questi.",
+            "Il bersaglio del tuo attacco deve essere al massimo di una taglia più grande di te, e deve essere entro la tua portata.",
+            "Il bersaglio deve superare un tiro salvezza su Forza o Destrezza (il bersaglio sceglie quale), o viene spinto 1,5 metri (5 feet) lontano da te oppure subisce la condizione Prono. La CD per il tiro salvezza e per qualsiasi tentativo di fuga è uguale a 8 più il tuo modificatore di Forza e il tuo Bonus Competenza."
         ]
     },
     {
