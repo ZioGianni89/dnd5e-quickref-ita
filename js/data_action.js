@@ -1,7 +1,7 @@
 data_action = [
     {
         title: "Attacco",
-        optional: "Regola Standard",
+        optional: "Standard rule",
         icon: "crossed-swords",
         subtitle: "Attacco in mischia o a distanza",
         description: "Esegui un attacco in mischia o a distanza con la tua arma o con il tuo Colpo Senz'Armi",
