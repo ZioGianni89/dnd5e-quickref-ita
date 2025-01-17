@@ -42,7 +42,7 @@ function add_quickref_item(parent, data, type) {
         show_modal(data, color, type);
     }
     // Set the title attribute of the item div to the value of the optional property
-    item.setAttribute("title", opzionale);
+    item.setAttribute("title", optional);
     // Append the created item to the specified parent element
     parent.appendChild(item);
 }
