@@ -43,13 +43,13 @@ data_action = [
     },
     {
         title: "Spingere lateralmente*",
-        optional: "Optional Rule",
+        optional: "Regola Opzionale",
         icon: "hand",
         subtitle: "Attacco speciale in mischia",
         description: "Spingi una creatura, per renderla prona o per spingerla lateralmente",
         reference: "PHB, pg. 195. / DMG, page 272",
         bullets: [
-            "(Optional Rule):",
+            "(Regola Opzionale):",
             "Con questa opzione, una creatura usa il suo attacco speciale spingere per spostare di forza un bersaglio di lato.",
             "L'attaccante ha svantaggio alla sua prova di Atletica (Forza) quando esegue questa azione.",
             "Se la prova ha successo, l'attaccante muove il bersaglio 1,5 metri (5 feet) in uno spazio differente entro la sua portata."
@@ -244,7 +244,7 @@ data_action = [
         description: "Una creatura può usare un attacco per far cadere un'arma o un altro oggetto dalla presa di un bersaglio.",
         reference: "DMG, page 271",
         bullets: [
-            "(Optional Rule):",
+            "(Regola Opzionale):",
             "L'attaccante effettua un tiro per colpire contrapposto da una prova di Atletica (Forza) o Acrobazia (Destrezza) del bersaglio.",
             "Se l'attaccante vince la prova, l'attacco non causa danni o altri effetti, ma il difensore fa cadere l'oggetto.",
             "L'attaccante ha svantaggio al suo tiro per colpire se il bersaglio sta afferrando l'oggetto con due o più mani.",
@@ -260,7 +260,7 @@ data_action = [
         description: "Quando una creatura prova a muoversi attraverso lo spazio occupato da una creatura ostile, la creatura che si muove può provare a forzare il suo passaggio oltrepassando la creatura ostile.",
         reference: "DMG, page 272",
         bullets: [
-            "(Optional Rule):",
+            "(Regola Opzionale):",
             "Come azione, la creatura che si muove effettua una prova di Atletica (Forza) contrapposta da una prova di Atletica (Forza) della creatura ostile.",
             "La creatura che sta tentando l'azione di oltrepassare ha vantaggio a questa prova se è più grande della creatura ostile, oppure svantaggio se è più piccola.",
             "Se la creatura che si muove vince la prova, può muoversi attraverso lo spazio occupato dalla creatura ostile una volta in questo turno."
@@ -274,7 +274,7 @@ data_action = [
         description: "Una creatura può provare a rotolare attraverso lo spazio occupato da una creatura ostile, chinandosi e zigzagando per oltrepassare l'avversario.",
         reference: "DMG, page 272",
         bullets: [
-            "(Optional Rule):",
+            "(Regola Opzionale):",
             "Come azione, la creatura che rotola effettua una prova di Acrobazia (Destrezza) contrapposta ad una prova di Acrobazia (Destrezza) della creatura ostile.",
             "Se la creatura che rotola vince la prova, può muoversi attraverso lo spazio occupato dalla creatura ostile una volta in questo turno."
         ]
@@ -283,11 +283,11 @@ data_action = [
         title: "Marcare*",
         optional: "Optional Rule",
         icon: "cross-mark",
-        subtitle: "Dare vantaggio agli attacchi di opportunità",
+        subtitle: "Vantaggio su attacchi d'opportunità",
         description: "Questa opzione rende più facile per i combattenti in mischia infastidirsi a vicenda con gli attacchi di opportunità.",
         reference: "DMG, page 271",
         bullets: [
-            "(Optional Rule):",
+            "(Regola Opzionale):",
             "Quando una creatura effettua un attacco in mischia, può anche marcare il suo bersaglio.",
             "Fino alla fine del prossimo turno dell'attaccante, qualsiasi attacco di opportunità effettuato dall'attaccante contro il bersaglio marcato ottiene vantaggio.",
             "L'attacco di opportunità non spende la reazione dell'attaccante",
@@ -296,14 +296,14 @@ data_action = [
         ]
     },
     {
-        title: "Arrampicarsi su una creatura più grossa*",
+        title: "Arrampicarsi su una creatura*",
         optional: "Optional Rule",
         icon: "mountain-climbing",
         subtitle: "Arrampicarsi su una creatura più grossa",
         description: "Se una creatura vuole saltare su un'altra creatura, può farlo afferrandola. Un avversario sufficientemente grande può essere considerato come terreno ai fini di saltare sulla sua schiena o aggrapparsi a un suo arto.",
         reference: "DMG, page 271",
         bullets: [
-            "(Optional Rule):",
+            "(Regola Opzionale):",
             "Dopo avere effettuato le eventuali prove di caratteristica necessarie per portarsi in posizione e sulla creatura più grande, la creatura più piccola usa la sua azione per effettuare una prova di Atletica (Forza) o Acrobazia (Destrezza) contrapposta alla prova di Acrobazia (Destrezza) del bersaglio.",
             "Se la creatura più piccola vince la contesa, riesce a muoversi nello spazio della creatura bersaglio e si aggrappa al suo corpo.",
             "Finché si trova nello spazio del bersaglio, la creatura più piccola si muove assieme a lui e beneficia di vantaggio ai tiri per colpire contro di esso.",
