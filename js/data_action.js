@@ -1,7 +1,7 @@
 data_action = [
     {
         title: "Attacco",
-        optional: "Standard rule",
+        optional: "Standard Rule",
         icon: "crossed-swords",
         subtitle: "Attacco in mischia o a distanza",
         description: "Esegui un attacco in mischia o a distanza con la tua arma o con il tuo Colpo Senz'Armi",
@@ -17,7 +17,7 @@ data_action = [
     },
     {
         title: "Afferrare",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "grab",
         subtitle: "Colpo Senz'Armi",
         description: "Tenti di afferrare o lottare con una creatura",
@@ -30,7 +30,7 @@ data_action = [
     },
     {
         title: "Spingere",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "hand",
         subtitle: "Colpo Senz'Armi",
         description: "Spingi una creatura, per renderla prona o per spingerla lontano da te",
@@ -43,13 +43,13 @@ data_action = [
     },
     {
         title: "Spingere lateralmente*",
-        optional: "Optional rule",
+        optional: "Optional Rule",
         icon: "hand",
         subtitle: "Attacco speciale in mischia",
         description: "Spingi una creatura, per renderla prona o per spingerla lateralmente",
         reference: "PHB, pg. 195. / DMG, page 272",
         bullets: [
-            "(Optional rule):",
+            "(Optional Rule):",
             "Con questa opzione, una creatura usa il suo attacco speciale spingere per spostare di forza un bersaglio di lato.",
             "L'attaccante ha svantaggio alla sua prova di Atletica (Forza) quando esegue questa azione.",
             "Se la prova ha successo, l'attaccante muove il bersaglio 1,5 metri (5 feet) in uno spazio differente entro la sua portata."
@@ -57,7 +57,7 @@ data_action = [
     },
     {
         title: "Lanciare un incantesimo",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "magic-swirl",
         subtitle: "Tempo di lancio di 1 azione",
         description: "Lanci un incantesimo con un tempo di lancio di 1 azione",
@@ -71,7 +71,7 @@ data_action = [
     },
     {
         title: "Scatto",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "sprint",
         subtitle: "Raddoppia la velocità di movimento",
         description: "Guadagna movimento extra per il turno corrente",
@@ -82,7 +82,7 @@ data_action = [
     },
     {
         title: "Disimpegno",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "journey",
         subtitle: "Previeni gli attacchi d'opportunità",
         description: "Il tuo movimento non causa attacchi d'opportunità per il resto del turno",
@@ -92,7 +92,7 @@ data_action = [
     },
     {
         title: "Schivata",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "aura",
         subtitle: "Aumenta le difese",
         description: "Ti concentri esclusivamente sull'evitare gli attacchi",
@@ -104,7 +104,7 @@ data_action = [
     },
     {
         title: "Sfuggire",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "manacles",
         subtitle: "Sfuggire a una lotta",
         description: "Sfuggire a una lotta",
@@ -116,7 +116,7 @@ data_action = [
     },
     {
         title: "Aiuto",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "telepathy",
         subtitle: "Garantisce vantaggio ad un alleato",
         description: "Garantisce vantaggio ad un alleato su una prova di caratteristica o un tiro per colpire",
@@ -128,7 +128,7 @@ data_action = [
     },
     {
         title: "Usa Oggetto",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "snatch",
         subtitle: "Interagisci, usa abilità speciali",
         description: "Interagisci con un secondo oggetto o usa abilità speciali di un oggetto",
@@ -140,7 +140,7 @@ data_action = [
     },
     {
         title: "Indossa uno scudo",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "round-shield",
         subtitle: "Indossa o riponi uno scudo",
         description: "Indossa o riponi uno scudo",
@@ -152,7 +152,7 @@ data_action = [
     },
     {
         title: "Nascondersi",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "hood",
         subtitle: "Tentare di nascondersi",
         description: "Tentare di nascondersi",
@@ -167,7 +167,7 @@ data_action = [
     },
     {
         title: "Cercare",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "magnifying-glass",
         subtitle: "Tenta di trovare qualcosa",
         description: "Concentra la tua attenzione a cercare qualcosa",
@@ -178,7 +178,7 @@ data_action = [
     },
     {
         title: "Studiare",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "black-book",
         subtitle: "Cercare di ricordare qualcosa",
         description: "Concentra la tua attenzione per ricordare qualcosa",
@@ -189,7 +189,7 @@ data_action = [
     },
     {
         title: "Prepararsi",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "stopwatch",
         subtitle: "Scegli circostanza d'attivazione e azione",
         description: "Scegli una circostanza d'attivazione e un'azione di risposta",
@@ -203,7 +203,7 @@ data_action = [
     },
     {
         title: "Utilizza abilità di classe",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "embrassed-energy",
         subtitle: "Alcune abilità richiedono azioni",
         description: "Utilizza un'abilità razziale o di classe che usa un'azione",
@@ -214,7 +214,7 @@ data_action = [
     },
     {
         title: "Stabilizza una creatura",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "first-aid",
         subtitle: "Soccorri una creatura morente",
         description: "Impedisci ad una creatura morente di aver bisogno di effettuare tiri salvezza contro morte",
@@ -227,7 +227,7 @@ data_action = [
     },
     {
         title: "Improvvisa",
-        optional: "Regola Standard",
+        optional: "Standard Rule",
         icon: "juggler",
         subtitle: "Qualsiasi azione non in questa lista",
         description: "Esegui qualsiasi azione puoi immaginare",
@@ -238,13 +238,13 @@ data_action = [
     },
     {
         title: "Disarmare*",
-        optional: "Regola Opzionale",
+        optional: "Optional Rule",
         icon: "sword-break",
         subtitle: "Fai cadere un oggetto dalla presa del nemico",
         description: "Una creatura può usare un attacco per far cadere un'arma o un altro oggetto dalla presa di un bersaglio.",
         reference: "DMG, page 271",
         bullets: [
-            "(Regola Opzionale):",
+            "(Optional Rule):",
             "L'attaccante effettua un tiro per colpire contrapposto da una prova di Atletica (Forza) o Acrobazia (Destrezza) del bersaglio.",
             "Se l'attaccante vince la prova, l'attacco non causa danni o altri effetti, ma il difensore fa cadere l'oggetto.",
             "L'attaccante ha svantaggio al suo tiro per colpire se il bersaglio sta afferrando l'oggetto con due o più mani.",
@@ -254,13 +254,13 @@ data_action = [
     },
     {
         title: "Oltrepassare*",
-        optional: "Regola Opzionale",
+        optional: "Optional Rule",
         icon: "shield-bash",
         subtitle: "Correre attraverso uno spazio ostile",
         description: "Quando una creatura prova a muoversi attraverso lo spazio occupato da una creatura ostile, la creatura che si muove può provare a forzare il suo passaggio oltrepassando la creatura ostile.",
         reference: "DMG, page 272",
         bullets: [
-            "(Regola Opzionale):",
+            "(Optional Rule):",
             "Come azione, la creatura che si muove effettua una prova di Atletica (Forza) contrapposta da una prova di Atletica (Forza) della creatura ostile.",
             "La creatura che sta tentando l'azione di oltrepassare ha vantaggio a questa prova se è più grande della creatura ostile, oppure svantaggio se è più piccola.",
             "Se la creatura che si muove vince la prova, può muoversi attraverso lo spazio occupato dalla creatura ostile una volta in questo turno."
@@ -268,26 +268,26 @@ data_action = [
     },
     {
         title: "Rotolare*",
-        optional: "Regola Opzionale",
+        optional: "Optional Rule",
         icon: "tumble",
         subtitle: "Rotolare attraverso uno spazio ostile",
         description: "Una creatura può provare a rotolare attraverso lo spazio occupato da una creatura ostile, chinandosi e zigzagando per oltrepassare l'avversario.",
         reference: "DMG, page 272",
         bullets: [
-            "(Regola Opzionale):",
+            "(Optional Rule):",
             "Come azione, la creatura che rotola effettua una prova di Acrobazia (Destrezza) contrapposta ad una prova di Acrobazia (Destrezza) della creatura ostile.",
             "Se la creatura che rotola vince la prova, può muoversi attraverso lo spazio occupato dalla creatura ostile una volta in questo turno."
         ]
     },
     {
         title: "Marcare*",
-        optional: "Regola Opzionale",
+        optional: "Optional Rule",
         icon: "cross-mark",
         subtitle: "Dare vantaggio agli attacchi di opportunità",
         description: "Questa opzione rende più facile per i combattenti in mischia infastidirsi a vicenda con gli attacchi di opportunità.",
         reference: "DMG, page 271",
         bullets: [
-            "(Regola Opzionale):",
+            "(Optional Rule):",
             "Quando una creatura effettua un attacco in mischia, può anche marcare il suo bersaglio.",
             "Fino alla fine del prossimo turno dell'attaccante, qualsiasi attacco di opportunità effettuato dall'attaccante contro il bersaglio marcato ottiene vantaggio.",
             "L'attacco di opportunità non spende la reazione dell'attaccante",
@@ -297,13 +297,13 @@ data_action = [
     },
     {
         title: "Arrampicarsi su una creatura più grossa*",
-        optional: "Regola Opzionale",
+        optional: "Optional Rule",
         icon: "mountain-climbing",
         subtitle: "Arrampicarsi su una creatura più grossa",
         description: "Se una creatura vuole saltare su un'altra creatura, può farlo afferrandola. Un avversario sufficientemente grande può essere considerato come terreno ai fini di saltare sulla sua schiena o aggrapparsi a un suo arto.",
         reference: "DMG, page 271",
         bullets: [
-            "(Regola Opzionale):",
+            "(Optional Rule):",
             "Dopo avere effettuato le eventuali prove di caratteristica necessarie per portarsi in posizione e sulla creatura più grande, la creatura più piccola usa la sua azione per effettuare una prova di Atletica (Forza) o Acrobazia (Destrezza) contrapposta alla prova di Acrobazia (Destrezza) del bersaglio.",
             "Se la creatura più piccola vince la contesa, riesce a muoversi nello spazio della creatura bersaglio e si aggrappa al suo corpo.",
             "Finché si trova nello spazio del bersaglio, la creatura più piccola si muove assieme a lui e beneficia di vantaggio ai tiri per colpire contro di esso.",

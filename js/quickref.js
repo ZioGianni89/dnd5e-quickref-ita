@@ -138,8 +138,8 @@ document.addEventListener("DOMContentLoaded", function () {
         for (var i = 0; i < items.length; i++) {
             var item = items[i];
             var itemType = item.getAttribute('title');
-            var isOptional = itemType === 'Optional rule';
-            var isHomebrew = itemType === 'Regola Homebrew';
+            var isOptional = itemType === 'Optional Rule';
+            var isHomebrew = itemType === 'Homebrew Rule';
 
             if ((optionalCheckbox.checked && isOptional) ||
                 (homebrewCheckbox.checked && isHomebrew) ||
