@@ -8,7 +8,7 @@ Quick Reference can be viewed under
 
 ENG Version - https://onewholetomato.github.io/dnd5e-quickref/
 
-ITA Version - WIP
+ITA Version - https://ziogianni89.github.io/dnd5e-quickref-ita/
 
 Icons
 ==============
@@ -20,7 +20,7 @@ FAQ
 ===
 
 #### Q: I have found a layout issue or have an idea for improvements, what should I do? ####
-A: Open an issue at https://github.com/mfriik/dnd5e-quickref/issues. Even better: fork the project, fix the problem, and post a pull request.
+A: Open an issue at https://github.com/ziogianni89/dnd5e-quickref-ita/issues. Even better: fork the project, fix the problem, and post a pull request.
 
 #### Q: I have an idea for a minor tweak, such as adding actions specific for my character. How do I modify the content of the sheet? ####
 A: Open the subfolder called `js`, and edit one of the `data` files. Ask your local computer geek for help if you don't know how to edit those.
