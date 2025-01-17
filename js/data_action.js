@@ -43,13 +43,13 @@ data_action = [
     },
     {
         title: "Spingere lateralmente*",
-        optional: "Regola Opzionale",
+        optional: "Optional rule",
         icon: "hand",
         subtitle: "Attacco speciale in mischia",
         description: "Spingi una creatura, per renderla prona o per spingerla lateralmente",
         reference: "PHB, pg. 195. / DMG, page 272",
         bullets: [
-            "(Regola Opzionale):",
+            "(Optional rule):",
             "Con questa opzione, una creatura usa il suo attacco speciale spingere per spostare di forza un bersaglio di lato.",
             "L'attaccante ha svantaggio alla sua prova di Atletica (Forza) quando esegue questa azione.",
             "Se la prova ha successo, l'attaccante muove il bersaglio 1,5 metri (5 feet) in uno spazio differente entro la sua portata."
@@ -160,7 +160,7 @@ data_action = [
         bullets: [
             "Per nasconderti, devi superare una prova di Furtività (Destrezza) con CD 15.",
             "Per nasconderti, devi essere altamente oscurato o dietro una copertura 3/4 o dietro una copertura totale, inoltre devi essere fuori dalla linea visiva di qualunque creatura ostile; se puoi vedere una creatura, anche la creatura può vedere te.",
-            "Con una prova superata, ottieni la condizione "Invisibile". Prendi nota del risultato totale della tua prova, perchè questa sarà la CD di una creatura per trovarti con una prova di Percezione (Saggezza).",
+            "Con una prova superata, ottieni la condizione Invisibile. Prendi nota del risultato totale della tua prova, perchè questa sarà la CD di una creatura per trovarti con una prova di Percezione (Saggezza).",
             "Se fai rumore (come urlare a qualcuno di fare attenzione oppure far cadere un vaso), fai scoprire la tua posizione.",
             "La condizione termina immediatamente quando accade una delle seguenti situazioni: emetti un suono più forte di un sussurro, un nemico ti scopre, effettui un tiro per colpire oppure lanci un incantesimo con componenti verbali."
         ]
