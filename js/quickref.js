@@ -107,15 +107,15 @@ function fill_section(data, parentname, type) {
 }
 
 function init() {
-    fill_section(data_movement, "basic-movement", "Move");
-    fill_section(data_action, "basic-actions", "Action");
-    fill_section(data_bonusaction, "basic-bonus-actions", "Bonus action");
-    fill_section(data_reaction, "basic-reactions", "Reaction");
-    fill_section(data_condition, "basic-conditions", "Condition");
-    fill_section(data_environment_obscurance, "environment-obscurance", "Environment");
-    fill_section(data_environment_light, "environment-light", "Environment");
-    fill_section(data_environment_vision, "environment-vision", "Environment");
-    fill_section(data_environment_cover, "environment-cover", "Environment");
+    fill_section(data_movement, "basic-movement", "Movimento");
+    fill_section(data_action, "basic-actions", "Azione");
+    fill_section(data_bonusaction, "basic-bonus-actions", "Azione Bonus");
+    fill_section(data_reaction, "basic-reactions", "Reazione");
+    fill_section(data_condition, "basic-conditions", "Condizione");
+    fill_section(data_environment_obscurance, "environment-obscurance", "Ambiente");
+    fill_section(data_environment_light, "environment-light", "Ambiente");
+    fill_section(data_environment_vision, "environment-vision", "Ambiente");
+    fill_section(data_environment_cover, "environment-cover", "Ambiente");
 
     var modal = document.getElementById("modal");
     modal.addEventListener("click", hide_modal);
@@ -132,14 +132,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to handle checkbox changes for optional and homebrew rules
     function handleRulesToggle() {
-        console.log("Rules switches toggled"); // Debugging statement
+        console.log("Switch regole attivato"); // Debugging statement
         var items = document.getElementsByClassName('item itemsize');
 
         for (var i = 0; i < items.length; i++) {
             var item = items[i];
             var itemType = item.getAttribute('title');
             var isOptional = itemType === 'Regola Opzionale';
-            var isHomebrew = itemType === 'Homebrew Rule';
+            var isHomebrew = itemType === 'Regola Homebrew';
 
             if ((optionalCheckbox.checked && isOptional) ||
                 (homebrewCheckbox.checked && isHomebrew) ||
@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to handle darkmode toggle
     function handleDarkModeToggle() {
-        console.log("Dark mode switch toggled"); // Debugging statement
+        console.log("Switch modalità scura attivato"); // Debugging statement
         const darkModeElements = document.querySelectorAll('.dark-mode, .page-background');
         darkModeElements.forEach(element => {
             if (darkModeCheckbox.checked) {

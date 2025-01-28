@@ -1,221 +1,221 @@
 data_condition = [
     {
-        title: "Blinded",
-        optional: "Standard rule",
+        title: "Accecato",
+        optional: "Regola Standard",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
+        subtitle: "Non puoi vedere",
+        description: "Non puoi vedere",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "Attack rolls against you have Advantage, and your attack rolls have Disadvantage."
+            "Fallisci automaticamente qualsiasi prova di caratteristica che richieda la vista.",
+            "I tiri per colpire contro di te ottengono Vantaggio, e i tuoi tiri per colpire ottengono Svantaggio."
         ]
     },
     {
-        title: "Charmed",
-        optional: "Standard rule",
+        title: "Affascinato",
+        optional: "Regola Standard",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
+        subtitle: "Sei affascinato",
+        description: "Sei affascinato da un'altra creatura",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "Non puoi attaccare chi ti sta affascinando o renderlo bersaglio di abilità o effetti magici che gli recherebbero danno.",
+            "Chi ti sta affascinando ottiene vantaggio alle prove di caratteristica di tutte le interazioni sociali con te."
         ]
     },
     {
-        title: "Deafened",
-        optional: "Standard rule",
+        title: "Assordato",
+        optional: "Regola Standard",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
+        subtitle: "Non puoi udire",
+        description: "Non puoi udire",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Fallisci automaticamente qualsiasi prova di caratteristica che richieda l'udito."
         ]
     },
     {
-        title: "Exhaustion",
-        optional: "Standard rule",
+        title: "Indebolito",
+        optional: "Regola Standard",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
+        subtitle: "Sei indebolito",
+        description: "L'indebolimento si misura in 6 livelli",
         reference: "PHB, pg. 291.",
         bullets: [
-            "This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.",
-            "When you make a d20 Test, the roll is reduced by 2 x your exhaustion level",
-            "You speed is reduced by a number of feet equal to 5 x your exhaustion level.",
-            "Finishing a long rest removes one level of exhaustion."
+            "Questa condizione è cumulativa. Ogni volta che la ricevi, ottieni 1 livello di indebolimento. Muori se il tuo livello di indebolimento arriva a 6.",
+            "Quando effettui un tiro con il d20, il risultato è diminuito di 2 per livello di indebolimento.",
+            "La tua velocità è ridotta di 1,5 metri per livello di indebolimento.",
+            "Terminare un riposo lungo rimuove un livello di indebolimento."
         ]
     },
     {
-        title: "Frightened",
-        optional: "Standard rule",
+        title: "Spaventato",
+        optional: "Regola Standard",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
+        subtitle: "Sei spaventato",
+        description: "Sei spaventato",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "Ottieni svantaggio alle prove di caratteristica e ai tiri per colpire mentre la fonte della tua paura è in linea di vista.",
+            "Non puoi muoverti spontaneamente verso la fonte della tua paura."
         ]
     },
     {
-        title: "Grappled",
-        optional: "Standard rule",
+        title: "Afferrato",
+        optional: "Regola Standard",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
+        subtitle: "Sei afferrato",
+        description: "Sei afferrato",
         reference: "PHB, pg. 290.",
         bullets: [
-            "Your speed becomes 0, and can't increase",
-            "You have Disadvantage on attack rolls against any target other than the grappler.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler.",
-            "The grappler can drag or carry you when it moves, but every foot of movement costs it 1 extra foot unless you are Tiny or two or more sizes smaller than it."
+            "La tua velocità scende a 0, e non può aumentare.",
+            "Ottieni svantaggio ai tiri per colpire contro qualsiasi bersaglio che non sia la creatura che ti sta afferrando.",
+            "La condizione termina se la creatura che ti sta afferrando è incapacitata.",
+            "La condizione termina anche quando vieni spostato dalla portata della creatura che ti sta afferrando.",
+            "La creatura che ti sta afferrando può trascinarti o trasportarti quando si muove, ma il movimento gli costa il doppio del movimento normale, a meno che tu non sia di taglia piccola o almeno due taglie più piccolo di lei."
         ]
     },
     {
-        title: "Incapacitated",
-        optional: "Standard rule",
+        title: "Incapacitato",
+        optional: "Regola Standard",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "Non puoi effettuare azioni o reazioni",
+        description: "Non puoi effettuare azioni o reazioni",
         reference: "PHB, pg. 290.",
         bullets: [
-            "You can’t take any action, Bonus Action, or Reaction.",
-            "Your Concentration is broken.",
-            "You can’t speak.",
-            "<b>Surprised.</b> If you’re Incapacitated when you roll Initiative, you have Disadvantage on the roll. This counts as being surprised."
+            "Non puoi effettuare nessun tipo di azione, Azione Bonus o Reazione.",
+            "La tua concentrazione è interrotta.",
+            "Non puoi parlare.",
+            "<b>Sorpreso.</b> Se sei Incapacitato quando tiri Iniziativa, ottieni Svantaggio al tiro. Questo conta come se venissi colto di sorpresa."
 
         ]
     },
     {
-        title: "Invisible",
-        optional: "Standard rule",
+        title: "Invisibile",
+        optional: "Regola Standard",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "Non puoi essere visto",
+        description: "Non puoi essere visto senza l'aiuto della magia o di un senso speciale",
         reference: "PHB, pg. 291.",
         bullets: [
-            "<b>Surprise</b>. If you’re Invisible when you roll Initiative, you have Advantage on the roll.",
-            "<b>Concealed</b>. You aren’t affected by any effect that requires its target to be seen unless the effect’s creator can somehow see you. Any equipment you are wearing or carrying is also concealed.",
-            " Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don’t gain this benefit against that creature."
+            "<b>Sorpresa</b>. Se sei Invisibile quando tiri Iniziativa, ottieni vantaggio al tiro.",
+            "<b>Nascosto</b>. Non sei affetto da nessun effetto che richieda che il bersaglio sia visibile a meno che il creatore dell'effetto possa vederti in qualche modo. Anche tutto l'equipaggiamento che indossi o trasporti è nascosto.",
+            "Tiri per colpire contro di te ottengono Svantaggio, e i tuoi tiri per colpire ottengono Vantaggio. Se una creatura riesci a vederti in qualche modo, non ottieni questo beneficio contro quella creatura."
         ]
     },
     {
-        title: "Paralyzed",
-        optional: "Standard rule",
+        title: "Paralizzato",
+        optional: "Regola Standard",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Sei paralizzato",
+        description: "Non puoi fare nulla",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Sei incapacitato e non puoi muoverti o parlare.",
+            "Tiri per colpire contro di te ottengono Vantaggio.",
+            "Qualsiasi attacco che ti colpisce è un colpo critico se l'attaccante è entro 1,5 metri (5 feet) da te.",
+            "Fallisci automaticamente i tiri salvezza su Forza e Destrezza."
         ]
     },
     {
-        title: "Petrified",
-        optional: "Standard rule",
+        title: "Pietrificato",
+        optional: "Regola Standard",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        subtitle: "Vieni trasformato in pietra",
+        description: "Vieni trasformato, insieme a qualunque oggetto non magico che indossi o trasporti, in un blocco di una sostanza inanimata (solitamente pietra)",
         reference: "PHB, pg. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Il tuo peso aumenta di 10 volte, e smetti di invecchiare.",
+            "Sei incapacitato, non puoi muoverti o parlare, e sei inconsapevole di quello che ti accade intorno.",
+            "I tiri per colpire contro di te ottengono Vantaggio.",
+            "Fallisci automaticamente tiri salvezza su Forza e Destrezza.",
+            "Ottieni resistenza a tutti i danni.",
+            "Ottieni immunità a veleni e malattie, ma veleni o malattie già all'interno del tuo sistema sono soltanto sospesi, non neutralizzati."
         ]
     },
     {
-        title: "Poisoned",
-        optional: "Standard rule",
+        title: "Avvelenato",
+        optional: "Regola Standard",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
+        subtitle: "Sei avvelenato",
+        description: "Sei avvelenato",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Ottieni Svantaggio ai tiri per colpire e alle prove di caratteristica."
         ]
     },
     {
-        title: "Prone",
-        optional: "Standard rule",
+        title: "Prono",
+        optional: "Regola Standard",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
+        subtitle: "Sei a terra prono",
+        description: "Sei a terra prono",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "La tua unica opzione di movimento è strisciare, a meno che non ti rimetti in piedi.",
+            "Ottieni Svantaggio ai tiri per colpire.",
+            "I tiri per colpire contro di te ottengono Vantaggio se l'attaccante è entro 1,5 metri (5 feet) da te, altrimenti il tiro per colpire ottiene Svantaggio."
         ]
     },
     {
-        title: "Restrained",
-        optional: "Standard rule",
+        title: "Trattenuto",
+        optional: "Regola Standard",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
+        subtitle: "Sei trattenuto",
+        description: "Sei trattenuto",
         reference: "PHB, pg. 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "La tua velocità scende a 0, e non puoi beneficiare di nessun bonus alla tua velocità.",
+            "Ottieni Svantaggio ai tiri per colpire.",
+            "I tiri per colpire contro di te ottengono Vantaggio.",
+            "Ottieni Svantaggio ai tiri salvezza su Destrezza."
         ]
     },
     {
-        title: "Stunned",
-        optional: "Standard rule",
+        title: "Stordito",
+        optional: "Regola Standard",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
+        subtitle: "Sei stordito",
+        description: "Sei stordito",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You have the incapacitated condition.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Ottieni la condizione di Incapacitato.",
+            "I tiri per colpire contro di te ottengono Vantaggio.",
+            "Fallisci automaticamente i tiri salvezza su Forza e Destrezza."
         ]
     },
     {
-        title: "Unconscious",
-        optional: "Standard rule",
+        title: "Privo di sensi",
+        optional: "Regola Standard",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
+        subtitle: "Sei privo di sensi",
+        description: "Sei privo di sensi",
         reference: "PHB, pg. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "Sei incapacitato, non puoi muoverti o parlare, e sei inconsapevole di ciò che accade intorno a te.",
+            "Fai cadere qualsiasi cosa che stai tenendo in mano e cadi prono.",
+            "I tiri per colpire contro di te ottengono Vantaggio.",
+            "Qualsiasi attacco ti colpisca è un colpo critico se l'attaccante è entro 1,5 metri (5 feet) da te.",
+            "Fallisci automaticamente i tiri salvezza su Forza e Destrezza.",
         ]
     },
     {
-        title: "Dying",
-        optional: "Standard rule",
+        title: "Morente",
+        optional: "Regola Standard",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
+        subtitle: "Sei morente",
+        description: "Sei sceso a 0 punti ferita e stai morendo",
         reference: "PHB, pg. 197.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 counts as two failures.",
-            "Rolling a 20 immediately causes you to regain 1 hit point.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "Se i tuoi punti ferita scendono a 0 con un danno che non ti uccide subito, cadi privo di sensi e sei morente.",
+            "Se ricevi qualsiasi tipo di cura riprendi immediatamente i sensi e non sei più morente.",
+            "Quando stai morendo, all'inizio di ogni tuo turno effettua un tiro salvezza Morte. Tira un d20 e non aggiungere nessun modificatore.",
+            "Un 10 o superiore è un successo, 9 o inferiore è un fallimento.",
+            "Al tuo terzo successo, diventi stabile.",
+            "Al tuo terzo fallimento, muori.",
+            "Ottenere 1 con il tiro equivale a due fallimenti.",
+            "Ottenere 20 con il tiro ti fa immediatamente ottenere 1 punto ferita.",
+            "Puoi anche essere stabilizzato da un alleato che effettua un'azione Stabilizza e supera una prova Saggezza (Medicina) con CD 10.",
+            "Quando sei stabile, ottieni 1 punto ferita ogni 1d4 ore."
         ]
     }
 ]
