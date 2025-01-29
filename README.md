@@ -1,26 +1,30 @@
-dnd5e-quickref
+dnd5e-quickref-ita
 ==============
-original author https://github.com/crobi/dnd5e-quickref - I only built on top of his work to customize this page to my needs and likes.
+Autore originale https://github.com/crobi/dnd5e-quickref
 
-Quick reference sheet for D&amp;D 5e
+Fork del progetto https://github.com/OneWholeTomato/dnd5e-quickref
 
-Quick Reference can be viewed under
+Ho usato le loro repository per tradurre e adattare alle mie esigenze e bisogni questo strumento.
 
-ENG Version - https://onewholetomato.github.io/dnd5e-quickref/
+Foglio di consultazione rapida per D&amp;D 5e (edizione 2014)
 
-ITA Version - https://ziogianni89.github.io/dnd5e-quickref-ita/
+Il foglio di consultazione rapida può essere letto qui:
 
-Icons
+Versione Inglese - https://onewholetomato.github.io/dnd5e-quickref/
+
+Versione Italiana - https://ziogianni89.github.io/dnd5e-quickref-ita/
+
+Icone
 ==============
 
-All icons are provided by http://game-icons.net/
-Favicon comes from https://iconduck.com/icons/21871/dragon
+Tutte le icone sono fornite da http://game-icons.net/
+Favicon fornita da https://iconduck.com/icons/21871/dragon
 
 FAQ
 ===
 
-#### Q: I have found a layout issue or have an idea for improvements, what should I do? ####
-A: Open an issue at https://github.com/ziogianni89/dnd5e-quickref-ita/issues. Even better: fork the project, fix the problem, and post a pull request.
+#### D: Ho trovato un problema con la disposizione delle schede oppure ho un'idea per dei miglioramenti, cosa dovrei fare? ####
+R: Apri un issue a https://github.com/ziogianni89/dnd5e-quickref-ita/issues. Ancora meglio: fai un fork del progetto, risolvi il problema, e invia una pull request.
 
-#### Q: I have an idea for a minor tweak, such as adding actions specific for my character. How do I modify the content of the sheet? ####
-A: Open the subfolder called `js`, and edit one of the `data` files. Ask your local computer geek for help if you don't know how to edit those.
+#### D: Ho un'idea per una piccola modifica, come aggiungere azioni specifiche per il mio personaggio. Come faccio a modificare il contenuto del foglio? ####
+R: Apri la sottocartella chiamata `js`, e modifica uno dei file `data`. Chiedi al tuo smanettone locale una mano se non sai come editare quei file.
